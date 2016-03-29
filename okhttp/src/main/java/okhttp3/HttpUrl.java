@@ -863,9 +863,8 @@ public final class HttpUrl {
 
     public Builder encodedQuery(String encodedQuery) {
       this.encodedQueryNamesAndValues = encodedQuery != null
-          ? queryStringToNamesAndValues(
-          canonicalize(encodedQuery, QUERY_ENCODE_SET, true, false, true, true))
-          : null;
+              ? queryStringToNamesAndValues(encodedQuery)
+              : null;
       return this;
     }
 
