@@ -1,0 +1,4 @@
+Changing list:
+- okhttp/src/main/java/okhttp3/HttpUrl.java
+     Changed by sunnday.develpment@gmail.com.
+     Added rawEncodedQuery method for setting query string without any encoding.

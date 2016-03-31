@@ -12,6 +12,9 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
+ * Changed by sunnday.develpment@gmail.com.
+ * Added rawEncodedQuery method for setting query string without any encoding.
  */
 package okhttp3;
 
